@@ -8,6 +8,4 @@ const main = function () {
 
 };
 
-
-
 $(main);
