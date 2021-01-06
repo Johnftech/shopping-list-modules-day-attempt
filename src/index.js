@@ -1,9 +1,8 @@
-import item from './item';
-import store from './store';
-import shoppingList from './shopping-list';
-import $ from "jquery";
+import item from '../item';
+import store from '../scripts/store';
+import shoppingList from '../scripts/shopping-list';
+import $ from 'jquery';
 import './index.css';
-import cuid from "cuid";
 
 const main = function () {
   shoppingList.bindEventListeners();
